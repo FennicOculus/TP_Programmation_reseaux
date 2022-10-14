@@ -86,8 +86,16 @@ public class Fichier {
 		}
 		
 	}
-	public static void copier(String s) {
-
+	public static void Copier(String source, String destination) {
+		
+		Object o = new String(source);
+		Fichier.ecrireObjetFichier(o);
+		try {
+			destination = (String) Fichier.afficherObjetFichier();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	
 	}
 	
