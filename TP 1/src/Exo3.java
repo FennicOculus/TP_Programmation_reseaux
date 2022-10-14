@@ -43,7 +43,7 @@ public class Exo3 extends JFrame {
 	 */
 	public Exo3() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 450, 300);
+		setBounds(100, 100, 573, 300);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 			
@@ -64,9 +64,13 @@ public class Exo3 extends JFrame {
 		contentPane.setLayout(null);
 		
 		JList list = new JList();
-		list.setBounds(33, 11, 162, 239);
+		list.setBounds(10, 11, 162, 197);
 		contentPane.add(list);
 		list.setListData(ListeFichiers);
+		
+		JList list_1 = new JList();
+		list_1.setBounds(232, 60, 225, 148);
+		contentPane.add(list_1);
 		
 		//String i = (String) list.getSelectedValue();
 		
@@ -91,8 +95,36 @@ public class Exo3 extends JFrame {
 							// TODO Auto-generated catch block
 							e.printStackTrace();
 						}
-						//String 
-						//System.out.println(att.isDirectory());
+						String dir = "";
+						if (att.isDirectory() == true) {
+							dir = "IsDirectory";
+						}else {
+							dir = "IsNotDirectory";
+						}
+						String totatl = dir + " // Creation Time " + att.creationTime()
+						+" // Last Access Time "+att.lastAccessTime()+" // Last Modification " + att.lastModifiedTime();
+						System.out.println(totatl);
+						textField.setText(totatl);
+						
+					}
+				}
+				if (event.getClickCount() == 2) {
+					int index = thelist.locationToIndex(event.getPoint());
+					if (index > 0 ) {
+						Object o = thelist.getModel().getElementAt(index);
+						String s = o.toString();
+						Path filePath = Paths.get(Path+"\\"+s);
+						File rep2 = new File(Path+"\\"+s);
+						
+						if (rep2.isDirectory()) {
+							String [] ListeFichiers2;
+							ListeFichiers2 = rep2.list();
+							list_1.setListData(ListeFichiers2);
+						}else{
+							System.out.println("Not Directory");
+						}
+						
+						
 						
 					}
 				}
@@ -101,8 +133,12 @@ public class Exo3 extends JFrame {
 		list.addMouseListener(mouse);
 		
 		textField = new JTextField();
-		textField.setBounds(237, 36, 171, 20);
+		textField.setEditable(false);
+		textField.setBounds(10, 219, 537, 20);
 		contentPane.add(textField);
 		textField.setColumns(10);
+		
+		
+		
 	}
 }
