@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_s5pXIFRlEe265-bDGzPcqw">
+  <modelElement href="TP2%20ProgRsx%20Exo3.uml#_rBPrEFRlEe265-bDGzPcqw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_uXcx4FRlEe265-bDGzPcqw" sourceAnchor="163.0,0.0" targetAnchor="105.0,194.0" target="_uawkkFRlEe265-bDGzPcqw" source="_uXeAAFRlEe265-bDGzPcqw">
+    <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tgTHcFRlEe265-bDGzPcqw"/>
+    <stereotypes xmi:id="_uXcx4VRlEe265-bDGzPcqw" name="Reference">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tgacMFRlEe265-bDGzPcqw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_uXcx4lRlEe265-bDGzPcqw" text="">
+      <visualProperties xmi:id="_uocbQFRlEe265-bDGzPcqw" position="-8.665762928714628,-22.52127772005221"/>
+    </nameVisual>
+    <sourceRole xmi:id="_uXcx41RlEe265-bDGzPcqw" aggregationKind="NONE" name="">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tgTHcVRlEe265-bDGzPcqw"/>
+      <visualProperties xmi:id="_uoamEFRlEe265-bDGzPcqw" position="3.094070461213704,-69.85256773463124"/>
+      <visibility xmi:id="_uXcx5FRlEe265-bDGzPcqw" label="+"/>
+      <cardinality xmi:id="_uXdY8FRlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_uXdY8VRlEe265-bDGzPcqw" aggregationKind="NONE" name="producteur" navigable="true">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tfkHoFRlEe265-bDGzPcqw"/>
+      <visualProperties xmi:id="_uodpYFRlEe265-bDGzPcqw" position="-26.28136668797839,4.672659129510407"/>
+      <visibility xmi:id="_uXdY8lRlEe265-bDGzPcqw" label="~"/>
+      <cardinality xmi:id="_uXdY81RlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_uav9gFRlEe265-bDGzPcqw" source="_uawkkFRlEe265-bDGzPcqw">
+    <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tgacMVRlEe265-bDGzPcqw"/>
+    <stereotypes xmi:id="_uav9gVRlEe265-bDGzPcqw" name="Reference">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tgdfgFRlEe265-bDGzPcqw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_uav9glRlEe265-bDGzPcqw" text=""/>
+    <sourceRole xmi:id="_uav9g1RlEe265-bDGzPcqw" aggregationKind="NONE" name="">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tgacMlRlEe265-bDGzPcqw"/>
+      <visibility xmi:id="_uav9hFRlEe265-bDGzPcqw" label="+"/>
+      <cardinality xmi:id="_uav9hVRlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_uav9hlRlEe265-bDGzPcqw" aggregationKind="NONE" name="messages" navigable="true">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tfmj4VRlEe265-bDGzPcqw"/>
+      <visibility xmi:id="_uav9h1RlEe265-bDGzPcqw" label="-"/>
+      <cardinality xmi:id="_uav9iFRlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ubouUFRlEe265-bDGzPcqw" sourceAnchor="346.0,59.0" targetAnchor="107.0,194.0" target="_ub3-4FRlEe265-bDGzPcqw" source="_ubpVYFRlEe265-bDGzPcqw">
+    <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tgdfgVRlEe265-bDGzPcqw"/>
+    <bendpoints xmi:id="_uoZ_AFRlEe265-bDGzPcqw" sourceX="177" targetY="114"/>
+    <stereotypes xmi:id="_ubouUVRlEe265-bDGzPcqw" name="Reference">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tggi0FRlEe265-bDGzPcqw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ubouUlRlEe265-bDGzPcqw" text="">
+      <visualProperties xmi:id="_uogssFRlEe265-bDGzPcqw" position="-126.89921529841519,-0.32790583580981547"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ubouU1RlEe265-bDGzPcqw" aggregationKind="NONE" name="">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tgdfglRlEe265-bDGzPcqw"/>
+      <visualProperties xmi:id="_uoe3gFRlEe265-bDGzPcqw" position="45.14975554261565,-11.968950819342524"/>
+      <visibility xmi:id="_ubouVFRlEe265-bDGzPcqw" label="+"/>
+      <cardinality xmi:id="_ubouVVRlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ubouVlRlEe265-bDGzPcqw" aggregationKind="NONE" name="producteur" navigable="true">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tfpnMFRlEe265-bDGzPcqw"/>
+      <visualProperties xmi:id="_uohTwFRlEe265-bDGzPcqw" position="-137.4517835167457,101.69405560687642"/>
+      <visibility xmi:id="_ubouV1RlEe265-bDGzPcqw" label="~"/>
+      <cardinality xmi:id="_ubouWFRlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ubzGYFRlEe265-bDGzPcqw" source="_ub3-4FRlEe265-bDGzPcqw">
+    <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tggi0VRlEe265-bDGzPcqw"/>
+    <stereotypes xmi:id="_ub1iolRlEe265-bDGzPcqw" name="Reference">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tghw8FRlEe265-bDGzPcqw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ub07kFRlEe265-bDGzPcqw" text=""/>
+    <sourceRole xmi:id="_ub1ioFRlEe265-bDGzPcqw" aggregationKind="NONE" name="">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tggi0lRlEe265-bDGzPcqw"/>
+      <visibility xmi:id="_ub2JsVRlEe265-bDGzPcqw" label="+"/>
+      <cardinality xmi:id="_ub2JsFRlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ub1ioVRlEe265-bDGzPcqw" aggregationKind="NONE" name="messages" navigable="true">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tf3CkFRlEe265-bDGzPcqw"/>
+      <visibility xmi:id="_ub2wwFRlEe265-bDGzPcqw" label="-"/>
+      <cardinality xmi:id="_ub2JslRlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_uXeAAFRlEe265-bDGzPcqw" name="Consommateur" associationsOut="_uXcx4FRlEe265-bDGzPcqw">
+    <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tdg5MFRlEe265-bDGzPcqw"/>
+    <visualProperties xmi:id="_uXeAAVRlEe265-bDGzPcqw" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_uXeAAlRlEe265-bDGzPcqw" label="~"/>
+    <attributes xmi:id="_uXeAA1RlEe265-bDGzPcqw" defaultValue="50" name="NbMAX" staticAttribute="true">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tfiScFRlEe265-bDGzPcqw"/>
+      <visibility xmi:id="_uXeABFRlEe265-bDGzPcqw" label="~"/>
+      <cardinality xmi:id="_uXeABVRlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+      <type xmi:id="_uXeABlRlEe265-bDGzPcqw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_uXeAB1RlEe265-bDGzPcqw" name="NbMess">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tfi5gVRlEe265-bDGzPcqw"/>
+      <stereotypes xmi:id="_uXeACFRlEe265-bDGzPcqw" name="LegacyStyledElement">
+        <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tfjgkFRlEe265-bDGzPcqw"/>
+      </stereotypes>
+      <visibility xmi:id="_uXeACVRlEe265-bDGzPcqw" label="-"/>
+      <cardinality xmi:id="_uXeAClRlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+      <type xmi:id="_uXeAC1RlEe265-bDGzPcqw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_uXeADFRlEe265-bDGzPcqw" name="producteur">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tfkHoFRlEe265-bDGzPcqw"/>
+      <stereotypes xmi:id="_uXeADVRlEe265-bDGzPcqw" name="LegacyStyledElement">
+        <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tflVwFRlEe265-bDGzPcqw"/>
+      </stereotypes>
+      <visibility xmi:id="_uXeADlRlEe265-bDGzPcqw" label="~"/>
+      <cardinality xmi:id="_uXeAD1RlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+      <type xmi:id="_uXeAEFRlEe265-bDGzPcqw" name="Producteur">
+        <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tdnm4FRlEe265-bDGzPcqw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_uXeAEVRlEe265-bDGzPcqw" name="run">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tdkjkFRlEe265-bDGzPcqw"/>
+      <visibility xmi:id="_uXeAElRlEe265-bDGzPcqw" label="+"/>
+      <cardinality xmi:id="_uXeAE1RlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_uXeAFFRlEe265-bDGzPcqw" name="Consommateur">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tetzEFRlEe265-bDGzPcqw"/>
+      <keywords xmi:id="_uXeAFVRlEe265-bDGzPcqw" keyword="create"/>
+      <visibility xmi:id="_uXeAFlRlEe265-bDGzPcqw" label="~"/>
+      <cardinality xmi:id="_uXeAF1RlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_uXeAGFRlEe265-bDGzPcqw">
+        <modelElement href="TP2%20ProgRsx%20Exo3.uml#_teuaI1RlEe265-bDGzPcqw"/>
+        <type xmi:id="_uXeAGVRlEe265-bDGzPcqw" name="Consommateur">
+          <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tdg5MFRlEe265-bDGzPcqw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_uXeAGlRlEe265-bDGzPcqw" name="p">
+        <modelElement href="TP2%20ProgRsx%20Exo3.uml#_teuaIFRlEe265-bDGzPcqw"/>
+        <cardinality xmi:id="_uXeAG1RlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+        <type xmi:id="_uXeAHFRlEe265-bDGzPcqw" name="Producteur">
+          <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tdnm4FRlEe265-bDGzPcqw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_uapP0FRlEe265-bDGzPcqw" name="Distributeur">
+    <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tdS2wFRlEe265-bDGzPcqw"/>
+    <visualProperties xmi:id="_uapP0VRlEe265-bDGzPcqw" position="98.0,214.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_uapP0lRlEe265-bDGzPcqw" label="+"/>
+    <operations xmi:id="_uapP01RlEe265-bDGzPcqw" name="main" staticOperation="true">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tdcnwFRlEe265-bDGzPcqw"/>
+      <visibility xmi:id="_uapP1FRlEe265-bDGzPcqw" label="+"/>
+      <cardinality xmi:id="_uapP1VRlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_uapP1lRlEe265-bDGzPcqw" name="args">
+        <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tddO0FRlEe265-bDGzPcqw"/>
+        <cardinality xmi:id="_uapP11RlEe265-bDGzPcqw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_uapP2FRlEe265-bDGzPcqw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_uawkkFRlEe265-bDGzPcqw" name="Producteur" associationsIn="_uXcx4FRlEe265-bDGzPcqw" associationsOut="_uav9gFRlEe265-bDGzPcqw">
+    <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tdnm4FRlEe265-bDGzPcqw"/>
+    <visualProperties xmi:id="_uawkkVRlEe265-bDGzPcqw" position="88.0,-219.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_uawkklRlEe265-bDGzPcqw" label="~"/>
+    <attributes xmi:id="_uawkk1RlEe265-bDGzPcqw" defaultValue="5" name="NbFile" staticAttribute="true">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tflVwVRlEe265-bDGzPcqw"/>
+      <visibility xmi:id="_uawklFRlEe265-bDGzPcqw" label="~"/>
+      <cardinality xmi:id="_uawklVRlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+      <type xmi:id="_uawkllRlEe265-bDGzPcqw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_uawkl1RlEe265-bDGzPcqw" defaultValue="50" name="NbMAX" staticAttribute="true">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tfl80VRlEe265-bDGzPcqw"/>
+      <visibility xmi:id="_uawkmFRlEe265-bDGzPcqw" label="~"/>
+      <cardinality xmi:id="_uawkmVRlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+      <type xmi:id="_uawkmlRlEe265-bDGzPcqw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_uawkm1RlEe265-bDGzPcqw" name="messages">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tfmj4VRlEe265-bDGzPcqw"/>
+      <stereotypes xmi:id="_uawknFRlEe265-bDGzPcqw" name="LegacyStyledElement">
+        <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tfnK8FRlEe265-bDGzPcqw"/>
+      </stereotypes>
+      <visibility xmi:id="_uawknVRlEe265-bDGzPcqw" label="-"/>
+      <cardinality xmi:id="_uawknlRlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+      <type xmi:id="_uawkn1RlEe265-bDGzPcqw" name="Vector">
+        <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tewPUFRlEe265-bDGzPcqw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_uawkoFRlEe265-bDGzPcqw" name="nbMessage">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tfnK8VRlEe265-bDGzPcqw"/>
+      <stereotypes xmi:id="_uawkoVRlEe265-bDGzPcqw" name="LegacyStyledElement">
+        <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tfnyAFRlEe265-bDGzPcqw"/>
+      </stereotypes>
+      <visibility xmi:id="_uawkolRlEe265-bDGzPcqw" label="-"/>
+      <cardinality xmi:id="_uawko1RlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+      <type xmi:id="_uawkpFRlEe265-bDGzPcqw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_uawkpVRlEe265-bDGzPcqw" name="Producteur">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tdpcEFRlEe265-bDGzPcqw"/>
+      <keywords xmi:id="_uawkplRlEe265-bDGzPcqw" keyword="create"/>
+      <visibility xmi:id="_uawkp1RlEe265-bDGzPcqw" label="+"/>
+      <cardinality xmi:id="_uawkqFRlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_uawkqVRlEe265-bDGzPcqw">
+        <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tdpcE1RlEe265-bDGzPcqw"/>
+        <type xmi:id="_uawkqlRlEe265-bDGzPcqw" name="Producteur">
+          <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tdnm4FRlEe265-bDGzPcqw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_uawkq1RlEe265-bDGzPcqw" name="run">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tdqDIFRlEe265-bDGzPcqw"/>
+      <visibility xmi:id="_uawkrFRlEe265-bDGzPcqw" label="+"/>
+      <cardinality xmi:id="_uawkrVRlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_uawkrlRlEe265-bDGzPcqw" name="insererMessage">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tdqDIVRlEe265-bDGzPcqw"/>
+      <visibility xmi:id="_uawkr1RlEe265-bDGzPcqw" label="-"/>
+      <cardinality xmi:id="_uawksFRlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_uawksVRlEe265-bDGzPcqw" name="recupererMessage">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tdqqMFRlEe265-bDGzPcqw"/>
+      <visibility xmi:id="_uawkslRlEe265-bDGzPcqw" label="+"/>
+      <cardinality xmi:id="_uawks1RlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_uawktFRlEe265-bDGzPcqw">
+        <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tdqqMVRlEe265-bDGzPcqw"/>
+        <type xmi:id="_uawktVRlEe265-bDGzPcqw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ubpVYFRlEe265-bDGzPcqw" name="RConsommateur" associationsOut="_ubouUFRlEe265-bDGzPcqw">
+    <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tdtGcFRlEe265-bDGzPcqw"/>
+    <visualProperties xmi:id="_ubpVYVRlEe265-bDGzPcqw" position="-6.0,344.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ubpVYlRlEe265-bDGzPcqw" label="~"/>
+    <attributes xmi:id="_ubpVY1RlEe265-bDGzPcqw" defaultValue="50" name="NbMAX" staticAttribute="true">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tfoZEFRlEe265-bDGzPcqw"/>
+      <visibility xmi:id="_ubpVZFRlEe265-bDGzPcqw" label="~"/>
+      <cardinality xmi:id="_ubpVZVRlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+      <type xmi:id="_ubpVZlRlEe265-bDGzPcqw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ubpVZ1RlEe265-bDGzPcqw" name="NbMess">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tfpAIFRlEe265-bDGzPcqw"/>
+      <stereotypes xmi:id="_ubpVaFRlEe265-bDGzPcqw" name="LegacyStyledElement">
+        <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tfpAIVRlEe265-bDGzPcqw"/>
+      </stereotypes>
+      <visibility xmi:id="_ubpVaVRlEe265-bDGzPcqw" label="-"/>
+      <cardinality xmi:id="_ubpValRlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+      <type xmi:id="_ubpVa1RlEe265-bDGzPcqw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ubpVbFRlEe265-bDGzPcqw" name="producteur">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tfpnMFRlEe265-bDGzPcqw"/>
+      <stereotypes xmi:id="_ubpVbVRlEe265-bDGzPcqw" name="LegacyStyledElement">
+        <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tfqOQFRlEe265-bDGzPcqw"/>
+      </stereotypes>
+      <visibility xmi:id="_ubpVblRlEe265-bDGzPcqw" label="~"/>
+      <cardinality xmi:id="_ubpVb1RlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+      <type xmi:id="_ubpVcFRlEe265-bDGzPcqw" name="RProducteur">
+        <modelElement href="TP2%20ProgRsx%20Exo3.uml#_td0bMFRlEe265-bDGzPcqw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ubpVcVRlEe265-bDGzPcqw" name="run">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tdu7oFRlEe265-bDGzPcqw"/>
+      <visibility xmi:id="_ubpVclRlEe265-bDGzPcqw" label="+"/>
+      <cardinality xmi:id="_ubpVc1RlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_ubpVdFRlEe265-bDGzPcqw" name="RConsommateur">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_te1u4FRlEe265-bDGzPcqw"/>
+      <keywords xmi:id="_ubpVdVRlEe265-bDGzPcqw" keyword="create"/>
+      <visibility xmi:id="_ubpVdlRlEe265-bDGzPcqw" label="~"/>
+      <cardinality xmi:id="_ubpVd1RlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ubpVeFRlEe265-bDGzPcqw">
+        <modelElement href="TP2%20ProgRsx%20Exo3.uml#_te2V8lRlEe265-bDGzPcqw"/>
+        <type xmi:id="_ubpVeVRlEe265-bDGzPcqw" name="RConsommateur">
+          <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tdtGcFRlEe265-bDGzPcqw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ubpVelRlEe265-bDGzPcqw" name="p">
+        <modelElement href="TP2%20ProgRsx%20Exo3.uml#_te1u4VRlEe265-bDGzPcqw"/>
+        <cardinality xmi:id="_ubpVe1RlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+        <type xmi:id="_ubpVfFRlEe265-bDGzPcqw" name="RProducteur">
+          <modelElement href="TP2%20ProgRsx%20Exo3.uml#_td0bMFRlEe265-bDGzPcqw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ub3-4FRlEe265-bDGzPcqw" name="RProducteur" associationsIn="_ubouUFRlEe265-bDGzPcqw" associationsOut="_ubzGYFRlEe265-bDGzPcqw">
+    <modelElement href="TP2%20ProgRsx%20Exo3.uml#_td0bMFRlEe265-bDGzPcqw"/>
+    <visualProperties xmi:id="_ub3-4VRlEe265-bDGzPcqw" position="410.0,95.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ub3-4lRlEe265-bDGzPcqw" label="~"/>
+    <attributes xmi:id="_ub3-41RlEe265-bDGzPcqw" defaultValue="5" name="NbFile" staticAttribute="true">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tfqOQVRlEe265-bDGzPcqw"/>
+      <visibility xmi:id="_ub3-5FRlEe265-bDGzPcqw" label="~"/>
+      <cardinality xmi:id="_ub3-5VRlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+      <type xmi:id="_ub3-5lRlEe265-bDGzPcqw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ub3-51RlEe265-bDGzPcqw" defaultValue="50" name="NbMAX" staticAttribute="true">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tfq1UVRlEe265-bDGzPcqw"/>
+      <visibility xmi:id="_ub3-6FRlEe265-bDGzPcqw" label="~"/>
+      <cardinality xmi:id="_ub3-6VRlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+      <type xmi:id="_ub3-6lRlEe265-bDGzPcqw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ub3-61RlEe265-bDGzPcqw" name="messages">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tf3CkFRlEe265-bDGzPcqw"/>
+      <stereotypes xmi:id="_ub3-7FRlEe265-bDGzPcqw" name="LegacyStyledElement">
+        <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tf5e0FRlEe265-bDGzPcqw"/>
+      </stereotypes>
+      <visibility xmi:id="_ub3-7VRlEe265-bDGzPcqw" label="-"/>
+      <cardinality xmi:id="_ub3-7lRlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+      <type xmi:id="_ub3-71RlEe265-bDGzPcqw" name="Vector">
+        <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tewPUFRlEe265-bDGzPcqw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ub3-8FRlEe265-bDGzPcqw" name="nbMessage">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tf6F4FRlEe265-bDGzPcqw"/>
+      <stereotypes xmi:id="_ub3-8VRlEe265-bDGzPcqw" name="LegacyStyledElement">
+        <modelElement href="TP2%20ProgRsx%20Exo3.uml#_tf6F4VRlEe265-bDGzPcqw"/>
+      </stereotypes>
+      <visibility xmi:id="_ub3-8lRlEe265-bDGzPcqw" label="-"/>
+      <cardinality xmi:id="_ub3-81RlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+      <type xmi:id="_ub3-9FRlEe265-bDGzPcqw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ub3-9VRlEe265-bDGzPcqw" name="RProducteur">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_td-zQFRlEe265-bDGzPcqw"/>
+      <keywords xmi:id="_ub3-9lRlEe265-bDGzPcqw" keyword="create"/>
+      <visibility xmi:id="_ub3-91RlEe265-bDGzPcqw" label="+"/>
+      <cardinality xmi:id="_ub3--FRlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ub3--VRlEe265-bDGzPcqw">
+        <modelElement href="TP2%20ProgRsx%20Exo3.uml#_td-zQ1RlEe265-bDGzPcqw"/>
+        <type xmi:id="_ub3--lRlEe265-bDGzPcqw" name="RProducteur">
+          <modelElement href="TP2%20ProgRsx%20Exo3.uml#_td0bMFRlEe265-bDGzPcqw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ub3--1RlEe265-bDGzPcqw" name="run">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_teAocFRlEe265-bDGzPcqw"/>
+      <visibility xmi:id="_ub3-_FRlEe265-bDGzPcqw" label="+"/>
+      <cardinality xmi:id="_ub3-_VRlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_ub3-_lRlEe265-bDGzPcqw" name="insererMessage">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_teBPgFRlEe265-bDGzPcqw"/>
+      <visibility xmi:id="_ub3-_1RlEe265-bDGzPcqw" label="-"/>
+      <cardinality xmi:id="_ub3_AFRlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_ub3_AVRlEe265-bDGzPcqw" name="recupererMessage">
+      <modelElement href="TP2%20ProgRsx%20Exo3.uml#_teBPgVRlEe265-bDGzPcqw"/>
+      <visibility xmi:id="_ub3_AlRlEe265-bDGzPcqw" label="+"/>
+      <cardinality xmi:id="_ub3_A1RlEe265-bDGzPcqw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ub3_BFRlEe265-bDGzPcqw">
+        <modelElement href="TP2%20ProgRsx%20Exo3.uml#_teB2kFRlEe265-bDGzPcqw"/>
+        <type xmi:id="_ub3_BVRlEe265-bDGzPcqw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
